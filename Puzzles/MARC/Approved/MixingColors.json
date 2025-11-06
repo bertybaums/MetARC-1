@@ -1,0 +1,43 @@
+{
+    "metaphor": "Mixing Colors",
+    "train": [
+        {
+            "input": [
+                [
+                    "2",
+                    "4"
+                ],
+                [
+                    "2",
+                    "4"
+                ]
+            ],
+            "output": [
+                [
+                    "7"
+                ]
+            ]
+        }
+    ],
+    "test": [
+        {
+            "input": [
+                [
+                    "4",
+                    "1"
+                ],
+                [
+                    "4",
+                    "1"
+                ]
+            ],
+            "output": [
+                [
+                    "3"
+                ]
+            ]
+        }
+    ],
+    "scene_description": "there is a 2x2 grid with two yellow pixels on the left side of the grid and two blue pixels on the right side of the grid",
+    "literal_instruction": "change the grid size to 1x1. make the pixel green."
+}
